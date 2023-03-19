@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario deseo realizar la compra de mis productos en el carrito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-19T21:47:33" hostname="DESKTOP-JJOH6MQ" time="20.359">
+  <properties/>
+  <testcase name="Yo como usuario quiero pagar mis productos seleccionados con SafePay" classname="Yo como usuario deseo realizar la compra de mis productos en el carrito" time="20.359"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 19, 2023 4:47:33 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --window-size=1920,1080\r\n], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 36412
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 19, 2023 4:47:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Cleaning up unclosed ZipFile for archive C:\Users\jupsa\Documents\IdeaProjects\Tyba_PruebaTecnica\src\main\resources\data\PayProducts.xlsx
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Yo como usuario quiero pagar mis productos seleccionados con SafePay
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

@@ -1,0 +1,54 @@
+defaultTasks 'clean', 'test', 'aggregate'
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.1.6")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-junit:2.1.6'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    compile 'net.serenity-bdd:serenity-core:2.1.6'
+    compile 'net.serenity-bdd:serenity-screenplay:1.9.45'
+    compile 'org.slf4j:slf4j-simple:1.7.7'
+    compile 'com.google.guava:guava:23.0'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.1.6'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.1'
+    compile group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13'
+    compile 'junit:junit:4.12'
+    implementation group: 'com.github.2gis.winium', name: 'winium-elements-desktop', version: '0.2.0-1'
+    implementation group: 'com.github.2gis.winium', name: 'winium-webdriver', version: '0.1.0-1'
+    implementation group: 'com.sikulix', name: 'sikulixapi', version: '2.0.4'
+
+
+}
+
+test.finalizedBy(aggregate)
+
+test {
+
+    ignoreFailures = true
+}
+
+tasks.withType(JavaCompile){
+    options.encoding = 'UTF-8'
+}
+
+gradle.startParameter.continueOnFailure = true

@@ -1,0 +1,48 @@
+com/tyba/questions/DasboardHomeQuestions.java
+ com.tyba.questions.DasboardHomeQuestions
+com/tyba/models/AddProducts/AddProductsDataToPage.java
+ com.tyba.models.AddProducts.AddProductsDataToPage
+com/tyba/questions/AddtoCarQuestions.java
+ com.tyba.questions.AddtoCarQuestions
+com/tyba/tasks/LoginTask.java
+ com.tyba.tasks.LoginTask
+com/tyba/tasks/InputDataCreateNewAccoutTask.java
+ com.tyba.tasks.InputDataCreateNewAccoutTask
+com/tyba/utils/ClassType.java
+ com.tyba.utils.ClassType
+com/tyba/utils/BeforeSuite.java
+ com.tyba.utils.BeforeSuite
+com/tyba/ui/HomeDashboardLogin.java
+ com.tyba.ui.HomeDashboardLogin
+com/tyba/ui/CreateAccount.java
+ com.tyba.ui.CreateAccount
+com/tyba/utils/URL.java
+ com.tyba.utils.URL
+com/tyba/utils/DataToFeature.java
+ com.tyba.utils.DataToFeature
+com/tyba/tasks/CreateUserTask.java
+ com.tyba.tasks.CreateUserTask
+com/tyba/models/CreateUser/CreateUserInjections.java
+ com.tyba.models.CreateUser.CreateUserInjections
+com/tyba/utils/ReadExcel.java
+ com.tyba.utils.ReadExcel
+com/tyba/models/AddProducts/AddProductsDataInjections.java
+ com.tyba.models.AddProducts.AddProductsDataInjections
+com/tyba/ui/HomeUserInterface.java
+ com.tyba.ui.HomeUserInterface
+com/tyba/models/PayProducts/PayProductsDataToPage.java
+ com.tyba.models.PayProducts.PayProductsDataToPage
+com/tyba/models/CreateUser/CreateUserDataToPage.java
+ com.tyba.models.CreateUser.CreateUserDataToPage
+com/tyba/models/PayProducts/PayProductsDataInjections.java
+ com.tyba.models.PayProducts.PayProductsDataInjections
+com/tyba/questions/CreateAccountQuestions.java
+ com.tyba.questions.CreateAccountQuestions
+com/tyba/ui/ShoppingCar.java
+ com.tyba.ui.ShoppingCar
+com/tyba/tasks/SelecProductAPopularItemsTask.java
+ com.tyba.tasks.SelecProductAPopularItemsTask
+com/tyba/utils/Replace.java
+ com.tyba.utils.Replace
+com/tyba/ui/ProductDescription.java
+ com.tyba.ui.ProductDescription

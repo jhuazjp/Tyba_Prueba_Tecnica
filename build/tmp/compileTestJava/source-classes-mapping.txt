@@ -1,0 +1,16 @@
+com/tyba/stepdefinitions/CreateUserStepDefinitions.java
+ com.tyba.stepdefinitions.CreateUserStepDefinitions
+com/tyba/stepdefinitions/AddProductsStepDefinitions.java
+ com.tyba.stepdefinitions.AddProductsStepDefinitions
+com/tyba/stepdefinitions/CommonStepDefinitions.java
+ com.tyba.stepdefinitions.CommonStepDefinitions
+com/tyba/runners/AddProductsRunner.java
+ com.tyba.runners.AddProductsRunner
+com/tyba/stepdefinitions/PayProductsStepDefinitions.java
+ com.tyba.stepdefinitions.PayProductsStepDefinitions
+com/tyba/runners/PayProductsRunner.java
+ com.tyba.runners.PayProductsRunner
+com/tyba/runners/CreateUserRunner.java
+ com.tyba.runners.CreateUserRunner
+com/tyba/runners/MajorRunner.java
+ com.tyba.runners.MajorRunner
